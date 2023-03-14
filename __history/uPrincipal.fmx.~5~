@@ -1,0 +1,74 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 372
+  ClientWidth = 542
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Client
+    Margins.Left = 5.000000000000000000
+    Margins.Top = 5.000000000000000000
+    Margins.Right = 5.000000000000000000
+    Margins.Bottom = 5.000000000000000000
+    Size.Width = 532.000000000000000000
+    Size.Height = 282.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 524.000000000000000000
+    Viewport.Height = 274.000000000000000000
+  end
+  object SkLabel1: TSkLabel
+    Align = Top
+    Size.Width = 542.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family]
+    TextSettings.Font.Size = 25.000000000000000000
+    TextSettings.Font.Slant = Italic
+    TextSettings.Font.Stretch = SemiCondensed
+    TextSettings.Font.Weight = Bold
+    TextSettings.FontColor = claCadetblue
+    TextSettings.HorzAlign = Center
+    Words = <
+      item
+        Text = 'ChatGPT in Delphi'
+      end>
+  end
+  object Layout1: TLayout
+    Align = Top
+    Position.Y = 30.000000000000000000
+    Size.Width = 542.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 0
+      Margins.Left = 15.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Size.Width = 434.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object btnPesquisar: TButton
+      Align = Right
+      StyledSettings = [Family, Size, FontColor]
+      Margins.Right = 5.000000000000000000
+      Position.X = 464.000000000000000000
+      Size.Width = 73.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Enviar'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      OnClick = btnPesquisarClick
+    end
+  end
+end
